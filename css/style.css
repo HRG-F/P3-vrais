@@ -1,0 +1,46 @@
+/******************** VERSION MOBILE - DEBUT ********************/ 
+@media screen and (max-width: 768px) {
+
+body{
+    max-width: 768px;
+    margin: auto;
+    font-family: "roboto";
+}
+
+/******** Header - DEBUT ********/    
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.localise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCDCDC;
+    box-shadow: inset 0px 4px 5px -1px rgba(0,0,0,0.37);
+}
+.localise i{
+    padding-right: 10px;
+}
+
+.phrases-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 15% 0px 15%;
+}
+
+.phrases-header h1{
+    font-size: 25px;
+}
+
+/******** Header - FIN ********/    
+
+
+
+}
+/******************** VERSION MOBILE - FIN ********************/    
+
