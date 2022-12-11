@@ -18,6 +18,7 @@ header{
     display: flex;
     justify-content: center;
     padding: 15px;
+    background-color: white;
 }
 
 .localise{
@@ -65,11 +66,11 @@ box-shadow: 0px 7px 15px -2px #000000;
 }
 /******** Header - FIN ********/   
 
-main{
+/******** FONCTIONNEMENT - DEBUT ********/
+.fonctionnement{
     padding: 5%;
 }
 
-/******** FONCTIONNEMENT - DEBUT ********/
 .fonctionnement-trois-cartes{
     display: flex;
     margin: auto;
@@ -124,18 +125,25 @@ main{
 .restaurants{
     display: flex;
     flex-direction: column;
+    background-color: #F2F2F2;
+    margin: 50px 0 50px 0;
+}
+
+.restaurants h2{
+    margin: 5%;
 }
 
 .restaurants-carte{
-    width: 95%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     margin: auto;
+    box-shadow: 0px 6px 13px -10px #000000;
 }
 
 .restaurants img{
     width: 100%;
-    height: 220px;
+    height: 200px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -145,16 +153,28 @@ main{
     align-items: center;
     justify-content: space-between;
     padding: 0 10% 0 10%;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    height: 80px;
+
 }
 
 .restaurants-carte-partie-basse-gauche{
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .restaurants-carte-partie-basse i{
-    font-size: 30px;
+    font-size: 25px;
+}
+
+.restaurants-carte-partie-basse-gauche p{
+    margin: 5px 0 0 0;
+}
+
+.restaurants-carte-partie-basse-gauche h3{
+    margin: 0 0 0 0;
 }
 
 /******** RESTAURANTS - FIN ********/
