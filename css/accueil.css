@@ -63,6 +63,7 @@ color: white;
 font-size: 17px;
 border: none;
 box-shadow: 0px 7px 15px -2px #000000;
+cursor: pointer;
 }
 /******** Header - FIN ********/   
 
@@ -88,6 +89,7 @@ box-shadow: 0px 7px 15px -2px #000000;
     box-shadow: 0px 6px 13px -10px #000000;
     background-color: #F2F2F2;
     border-radius: 20px;
+    cursor: pointer;
 }
  .fonctionnement-trois-cartes :hover{
     background-color: #dddada;
@@ -126,9 +128,8 @@ box-shadow: 0px 7px 15px -2px #000000;
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
-    margin: 50px 0 50px 0;
+    margin: 40px 0 40px 0;
     height: 1300px;
-    padding: 50px 0 50px 0;
 }
 
 .restaurants h2{
@@ -150,6 +151,18 @@ box-shadow: 0px 7px 15px -2px #000000;
     border-radius: 20px 20px 0 0;
 }
 
+.nouveau{
+    background-color: #99E2D0;
+    color: #008664;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    width: 100px;
+    height: 35px;
+}
+
 .restaurants-carte-partie-basse{
     display: flex;
     flex-direction: row;
@@ -168,8 +181,14 @@ box-shadow: 0px 7px 15px -2px #000000;
     font-size: 17px;
 }
 
-.restaurants-carte-partie-basse i{
+.coeur{
     font-size: 25px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.coeur:hover{
+    color:#FF79DA;
 }
 
 .restaurants-carte-partie-basse-gauche p{
@@ -183,10 +202,43 @@ box-shadow: 0px 7px 15px -2px #000000;
 
 /******** FOOTER - DEBUT ********/
 
+footer{ 
+    color: white;
+    background-color: #353535;
+    font-size: 20px;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+}
+
+footer i{
+    margin-right: 10px;
+}
+
+li{
+    margin: 10px;
+}
+
+footer p{
+    margin: 0;
+}
+
+.logo-footer{
+    font-family: "shrikhand";
+    padding: 5px;
+    font-size: 22px;
+}
+
+.footer-ligne{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 /******** FOOTER - FIN ********/
-
-
-
 
 }
 /******************** VERSION MOBILE - FIN ********************/    
