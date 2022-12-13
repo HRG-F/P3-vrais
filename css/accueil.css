@@ -7,6 +7,8 @@ body{
     font-family: "roboto";
 }
 
+
+
 /******** Header - DEBUT ********/    
 
 header{
@@ -209,7 +211,6 @@ header button{
 /******** RESTAURANTS - FIN ********/
 
 /******** FOOTER - DEBUT ********/
-
 footer{ 
     color: white;
     background-color: #353535;
@@ -247,7 +248,10 @@ footer p{
     align-items: center;
 }
 /******** FOOTER - FIN ********/
-
+a{
+    text-decoration: none;
+    color: #000000;
+}
 }
 /******************** VERSION MOBILE - FIN ********************/    
 
