@@ -1,10 +1,11 @@
 /******************** VERSION MOBILE - DEBUT ********************/ 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 0px) {
     
     body{
         margin: auto;
         font-family: "roboto";
         background-color: #F2F2F2;
+        max-width: 768px;
     }
     p, h2{
         margin: 0px;
@@ -41,9 +42,6 @@ header{
 /******** Header - FIN ********/
 
 /******** MENU - DEBUT ********/
-
-
-
 .titre-menu{
     display: flex;
     flex-direction: row;
@@ -169,5 +167,30 @@ footer p{
     flex-direction: row;
     align-items: center;
 }
-}
 /******** FOOTER - FIN ********/
+}
+/******************** VERSION MOBILE - FIN ********************/ 
+
+/******************** VERSION Tablette VERTICALE - Debut ********************/ 
+@media screen and (min-width: 768px) {
+    body{
+        max-width:1100px;
+    }
+
+    .carte-menu{
+        height: 120px;
+    }
+
+    .carte-menu h2{
+        font-size: 26px;
+    }
+
+    .carte-menu p{
+        font-size: 25px;
+    }
+
+    .categorie-menu{
+        height: 450px;
+    }
+}
+/******************** VERSION Tablette VERICALE - FIN ********************/ 
