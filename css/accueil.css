@@ -2,7 +2,6 @@
 @media screen and (max-width: 768px) {
 
 body{
-    max-width: 625px;
     margin: auto;
     font-family: "roboto";
 }
@@ -172,6 +171,16 @@ header button{
     top: 1265px;
     right: 8%;
 }
+
+@media screen and (min-width: 517px) and (max-width: 768px) {
+    .nouveau{
+        top: 980px;
+    }
+    .nouveau2{
+        top: 1290px;
+    }
+}
+
 
 .restaurants-carte-partie-basse{
     display: flex;
