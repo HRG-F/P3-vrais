@@ -354,6 +354,7 @@ main{
 .restaurants{
     flex-wrap: wrap;
     height: 1000px;
+    background-color: white;
 }
 .restaurants-carte{
     width: 35%;
@@ -381,6 +382,14 @@ main{
 
 .restaurants-carte img{
     height: 250px;
+}
+
+footer ul{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
 }
 /******************** VERSION DESKTOP / Tablette VERICALE - FIN ********************/   
