@@ -1,9 +1,10 @@
 /******************** VERSION MOBILE - DEBUT ********************/ 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 0px) {
 
 body{
     margin: auto;
     font-family: "roboto";
+    max-width: 768px;
 }
 
 
@@ -262,5 +263,79 @@ a{
     color: #000000;
 }
 }
-/******************** VERSION MOBILE - FIN ********************/    
+/******************** VERSION MOBILE - FIN ********************/  
+/******************** VERSION Tablette VERTICALE - Debut ********************/ 
+@media screen and (min-width: 768px) {
+    body{
+        max-width:1500px;
+    }
+
+    body h3{
+        font-size: 30px;
+    }
+
+    body h2{
+        font-size: 40px;
+    }
+
+    body p, i{
+        font-size: 25px;
+    }
+
+    header{
+        height: 500px;
+    }
+    .phrases-header h1{
+        font-size: 35px;
+    }
+
+    .phrases-header p{
+        font-size: 30px;
+    }
+
+    header button{
+        font-size: 30px;
+        height: 80px;
+    }
+
+    .fonctionnement{
+        height: 500px;
+    }
+
+    .fonctionnement-trois-cartes{
+        height: 450px;
+    }
+    .fonctionnement-carte{
+        height: 100px;
+    }
+
+    .fonctionnement-carte p, i{
+        font-size: 25px;
+    }
+
+    .restaurants{
+        height: 2800px;
+    }
+
+    .restaurants img{
+        height: 450px;
+    }
+
+    .restaurants-carte-partie-basse{
+        height: 130px;
+    }
+
+    .restaurants-carte-partie-basse i{
+        font-size: 40px;
+    }
+
+    .nouveau{
+        top: 1320px;
+    }
+
+    .nouveau2{
+        top: 1990px;
+    }
+}
+/******************** VERSION Tablette VERICALE - FIN ********************/   
 
