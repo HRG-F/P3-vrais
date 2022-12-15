@@ -134,8 +134,8 @@ header button{
     height: 1300px;
 }
 
-.restaurants h2{
-    margin: 30px;
+main h2{
+    margin: 0 0 0 50px;
 }
 
 .restaurants-carte{
@@ -264,10 +264,11 @@ a{
 }
 }
 /******************** VERSION MOBILE - FIN ********************/  
+
 /******************** VERSION Tablette VERTICALE - Debut ********************/ 
 @media screen and (min-width: 768px) {
     body{
-        max-width:1500px;
+        max-width:1200px;
     }
 
     body h3{
@@ -339,3 +340,27 @@ a{
 }
 /******************** VERSION Tablette VERICALE - FIN ********************/   
 
+/******************** VERSION DESKTOP / Tablette horizontale - DEBUT ********************/
+@media screen and (min-width: 1200px){
+body{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.restaurants{
+    flex-wrap: wrap;
+    height: 1000px;
+}
+.restaurants-carte{
+    width: 40%;
+}
+
+.restaurants-carte h2{
+width: 90%;
+}
+
+.restaurants-carte img{
+    height: 250px;
+}
+}
+/******************** VERSION DESKTOP / Tablette VERICALE - FIN ********************/   
