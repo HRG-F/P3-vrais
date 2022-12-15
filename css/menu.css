@@ -63,6 +63,8 @@ header{
     background-color: #F2F2F2;
     font-size: 18px;
     border-bottom: solid #9356DC 3px;
+    width: 30px;
+
 
 }
 
@@ -194,3 +196,48 @@ footer p{
     }
 }
 /******************** VERSION Tablette VERICALE - FIN ********************/ 
+
+/******************** VERSION DESKTOP / Tablette horizontale - DEBUT ********************/
+@media screen and (min-width: 1100px) {
+    body{
+        max-width:1400px;
+    }
+
+    .titre-menu{
+        height: 120px;
+        margin-top: 10px;
+    }
+
+    .header-image img{
+        max-height: 500px;
+    }
+
+    .menu p{
+        font-size: 25px;
+        margin: 20px 0 20px 0;
+    }
+    .menu{
+        margin: auto;
+    }
+    .titre{
+        width: 30px;
+        background-color: #F2F2F2;
+    }
+
+    .carte-menu{
+        width: 99%;
+    }
+
+    .categorie-menu{
+        width: 90%;
+        margin: auto;
+    }
+
+    footer ul{
+        flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+/******************** VERSION DESKTOP / Tablette horizontale - FIN ********************/   
