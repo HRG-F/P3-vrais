@@ -253,9 +253,11 @@ footer p{
     }
 
     .menu p{
-        font-size: 15px;
+        font-size: 20px;
         margin: 10px 0 10px 0;
     }
+
+
     .menu{
         justify-content: center;
         width: 100%;
