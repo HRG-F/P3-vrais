@@ -156,6 +156,8 @@ button{
     border: none;
     box-shadow: 0px 7px 15px -2px #000000;
     cursor: pointer;
+    transition: 0.5s;
+
 }
 
 .boutton-commander{
@@ -201,6 +203,13 @@ footer p{
     flex-direction: row;
     align-items: center;
 }
+
+button:hover{
+    transition: 0.5s;
+    background: linear-gradient(#faa6e2, #a96ef1);    
+    box-shadow: 0px 10px 20px 0px #000000;
+}
+
 /******** FOOTER - FIN ********/
 }
 /******************** VERSION MOBILE - FIN ********************/ 
