@@ -1,27 +1,4 @@
 /******************** VERSION MOBILE - DEBUT ********************/ 
-.loader{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #F2F2F2;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    opacity: 0.8;
-    animation: disappear 3s forwards;
-}
-
-@keyframes disappear{
-    to{
-        visibility: hidden;
-    }
-}
-
-.loader p{
-    font-size: 40px;
-    margin-left: 30px;
-}
-
 @media screen and (min-width: 0px) {
 
 body{
