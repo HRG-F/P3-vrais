@@ -19,7 +19,7 @@
 /******** Header - DEBUT ********/    
 
 header{
-    background-color: white;
+    background-color: #F2F2F2;
     height: 400px;
 }
 
@@ -67,7 +67,7 @@ h1{
     border-radius: 50px 50px 0 0;
     font-family: "shrikhand";
     padding: 20px 0 20px 0;
-    position: relative;
+    position: sticky;
     margin-top: -115px;
 }
 
@@ -172,10 +172,13 @@ footer i{
 
 li{
     margin: 10px;
+    text-decoration: none;
 }
 
 footer p{
     margin: 0;
+    text-decoration: none;
+    color: white;
 }
 
 .logo-footer{
@@ -253,6 +256,7 @@ button:hover{
     .titre-menu{
         height: 160px;
         margin-top: 10px;
+        position: unset;
     }
 
     header{

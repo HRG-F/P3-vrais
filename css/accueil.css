@@ -80,9 +80,9 @@ button:hover{
 /******** Header - FIN ********/   
 
 /******** FONCTIONNEMENT - DEBUT ********/
+
 .fonctionnement{
     padding: 5%;
-
 }
 
 .fonctionnement-trois-cartes{
@@ -146,7 +146,7 @@ button:hover{
 }
 
 main h2{
-    margin: 0 0 0 50px;
+    margin: 50px 0 0 30px;
 }
 
 .restaurants-carte{
@@ -164,6 +164,8 @@ main h2{
     border-radius: 20px 20px 0 0;
 }
 
+
+
 @media screen and (min-width: 517px) and (max-width: 768px) {
     .nouveau{
         top: 980px;
@@ -177,10 +179,12 @@ main h2{
 .restaurants-carte-partie-basse{
     display: grid;
     align-items: center;
-    padding: 0 10px 0 10px;
+    padding: 0 15px 0 15px;
     background-color: white;
     border-radius: 0 0 30px 30px;
     height: 80px;
+    grid-row-end: auto;
+    justify-content: space-between;
 
 }
 
@@ -194,7 +198,7 @@ main h2{
 .coeur{
     grid-column: 2;
     grid-row: 1;
-    font-size: 25px;
+    font-size: 30px;
     cursor: pointer;
 }
 
@@ -227,10 +231,12 @@ footer i{
 
 li{
     margin: 10px;
-}
+    }
 
 footer p{
     margin: 0;
+    text-decoration: none;
+    color: white;
 }
 
 .logo-footer{
@@ -316,14 +322,6 @@ a{
     .restaurants-carte-partie-basse i{
         font-size: 40px;
     }
-
-    .nouveau{
-        top: 1320px;
-    }
-
-    .nouveau2{
-        top: 1990px;
-    }
 }
 /******************** VERSION Tablette VERICALE - FIN ********************/   
 
@@ -337,6 +335,10 @@ body{
 main{
     margin: 40px 0 0 0;
 }
+
+header{
+    height:400px;
+}
 .restaurants{
     flex-wrap: wrap;
     height: 1000px;
@@ -346,11 +348,20 @@ main{
     width: 35%;
 }
 
+header button{
+width:430px;
+}
+
+header button{
+    font-size: 30px;
+}
+
 .fonctionnement-carte{
     width: 30%;
+    height: 80px;
 }
 .fonctionnement{
-    height: 100px;
+    height: 20px;
     width: 100%;
     padding: 30px 2% 90px 2%;
 }
