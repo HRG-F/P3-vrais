@@ -175,10 +175,8 @@ main h2{
 
 
 .restaurants-carte-partie-basse{
-    display: flex;
-    flex-direction: row;
+    display: grid;
     align-items: center;
-    justify-content: space-between;
     padding: 0 10px 0 10px;
     background-color: white;
     border-radius: 0 0 30px 30px;
@@ -187,19 +185,17 @@ main h2{
 }
 
 .restaurants-carte-partie-basse-gauche{
-    display: flex;
-    flex-direction: column;
+    grid-column: 1;
+    grid-row: 1;
     font-size: 17px;
+    align-items: center;
 }
 
 .coeur{
+    grid-column: 2;
+    grid-row: 1;
     font-size: 25px;
     cursor: pointer;
-    transition: all 0.3s linear;
-}
-
-.coeur1:hover{
-    color:#FF79DA;
 }
 
 .restaurants-carte-partie-basse-gauche p{
