@@ -195,7 +195,7 @@ main h2{
     align-items: center;
 }
 
-.coeur{
+.coeur1 , .coeur{
     grid-column: 2;
     grid-row: 1;
     font-size: 30px;

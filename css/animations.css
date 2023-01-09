@@ -50,3 +50,16 @@
 }
 
 /** Loader spinner - fin**/
+
+
+/** Coeur - Début **/
+
+.coeur1{
+  color: transparent;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+
+/** Coeur - Fin **/
