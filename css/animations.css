@@ -59,7 +59,51 @@
   background-image: linear-gradient(#FF79DA, #9356DC);
   background-clip: text;
   -webkit-background-clip: text;
+  opacity: 0;
+  transition-duration: 0.5s;
+  scale: 1;
 }
 
+.coeur1:hover{
+  opacity: 1;
+  scale: 1.05;
+  transition-duration: 0.5s;
+}
 
 /** Coeur - Fin **/
+
+
+/** Apparitions vignettes - Debut **/
+
+.carte-menu{
+  animation: apparition;
+  animation-delay: 3s;
+}
+
+.delay1{
+  animation-duration: 0.7s;
+}
+
+.delay2{
+animation-duration: 1.4s;
+}
+
+.delay3{
+animation-duration: 2.1s;
+}
+
+.delay4{
+animation-duration: 4s;
+}
+
+@keyframes apparition{
+  0%{
+    transform: translateY(50%);
+    opacity:0
+  }
+100%{
+  transform: translateY(0);
+  opacity: 1;
+}
+}
+/** Apparitions vignettes - Fin **/
