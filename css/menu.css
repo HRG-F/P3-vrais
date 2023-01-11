@@ -88,12 +88,24 @@ h1{
 .prix-menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    height:100%
 }
+
+.carré i{
+    height: 100%;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #99E2DE;
+    font-size: 25px;
+    color: white;
+    border-radius: 0px 10px 10px 0;
+}
+
 
 .carte-menu{
     display: flex;
-    flex-direction: column;
     background-color: white;
     border-radius: 20px;
     width: 90%;
@@ -104,13 +116,31 @@ h1{
     animation: degrade 3s;
 }
 
+.carte-menu-gauche{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.carte-menu-gauche p{
+    padding: 0 0 0 10px;
+}
+
+
 .carte-menu h2{
     font-size: 18px;
     padding: 0 0 0 10px;
 }
 
-.carte-menu p{
-    padding: 0px 10px 0px 10px;
+.prix-menu p{
+    display: flex;
+    padding: 0px 5px 0px 5px;
+    flex-wrap: wrap;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
 }
 
 .categorie-menu{
