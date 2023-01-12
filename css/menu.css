@@ -88,6 +88,7 @@ h1{
 .carré i{
     height: 100%;
     width: 4rem;
+    min-width: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,7 +134,7 @@ h1{
     flex-direction: row;
     height:100%;
     overflow: hidden;
-    margin: 0 -25% 0 0;
+    margin: 0 -27% 0 0;
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -272,6 +273,7 @@ button:hover{
 
     .carré i{
         width: 7rem;
+        min-width: 7rem;
         font-size: 45px;
     }
 
@@ -285,19 +287,19 @@ button:hover{
     }
 
     .carte-menu h2{
-        font-size: 26px;
+        font-size: 21px;
     }
 
     .carte-menu p{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .categorie-menu{
-        height: 525px;
+        height: 390px;
     }
 
     .prix-menu{
-        margin-right: -28%;
+        margin-right: -29.5%;
     }
 
 }
@@ -307,12 +309,6 @@ button:hover{
 @media screen and (min-width: 769px) {
     body{
         max-width:1400px;
-    }
-
-    .section1{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
     }
 
     .titre-menu{
@@ -325,15 +321,18 @@ button:hover{
         height: 300px;
     }
     .header-image img{
-        max-height: 300px;
+        max-height: 100px;
     }
 
     .carte-menu h2{
-        font-size: 18px
+        font-size: 13px
     }
 
+    .categorie-menu{
+        width: 45%;
+    }
     .carte-menu p{
-        font-size: 20px;
+        font-size: 12px;
     }
 
     .menu p{
@@ -342,7 +341,6 @@ button:hover{
     }
 
     .menu{
-        justify-content: center;
         width: 100%;
    }
 
@@ -357,38 +355,6 @@ button:hover{
         
     }
 
-    .carte-menu{
-        width: 95%;
-        height: 100px;
-    }
-
-    .categorie-menu{
-        width: 100%;
-        flex-direction: column;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        background: transparent;
-        height: 500px;
-    }
-
-    .section2{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-    }
-
-    .desserts{
-        width: 47%;
-    }
-
-    .variante-menu{
-        height: 270px;
-    }
-
     footer ul{
         flex-direction: row;
         display: flex;
@@ -396,12 +362,23 @@ button:hover{
         align-items: center;
     }
 
+    .section1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .section2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
     button{
         font-size: 30px;
         height: 100px;
         width: 100%;
-        margin-left: 190px;
-        margin-top: 170px;
     }
 
 }
