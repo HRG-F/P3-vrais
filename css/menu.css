@@ -1,5 +1,5 @@
 /******************** VERSION MOBILE - DEBUT ********************/ 
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 320px) {
     
     body{
         margin: auto;
@@ -87,7 +87,7 @@ h1{
 
 .carré i{
     height: 100%;
-    width: 70px;
+    width: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,12 +120,12 @@ h1{
 }
 
 .carte-menu-gauche p{
-    font-size: 15px;
+    font-size: 0.8rem;
 }
 
 
 .carte-menu h2{
-    font-size: 16px;
+    font-size: 0.9rem;
 }
 
 .prix-menu{
@@ -134,7 +134,7 @@ h1{
     height:100%;
     overflow: hidden;
     margin-right: -4.4rem;
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     transition-duration: 0.5s;
@@ -142,7 +142,6 @@ h1{
 
 .prix-menu:hover{
     margin-right: 0rem;
-    width: 40%;
     display: flex;
     justify-content: space-between;
     transition-duration: 0.5s;
@@ -251,7 +250,7 @@ button:hover{
 /******************** VERSION MOBILE - FIN ********************/ 
 
 /******************** VERSION Tablette VERTICALE - Debut ********************/ 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 426px) {
     body{
         max-width:1100px;
     }
@@ -269,6 +268,10 @@ button:hover{
         padding: 0px 30px 0 30px;
         height: 120px;
 
+    }
+
+    .carré i{
+        width: 7rem;
     }
 
 
@@ -291,11 +294,16 @@ button:hover{
     .categorie-menu{
         height: 525px;
     }
+
+    .prix-menu{
+        width:29%;
+    }
+
 }
 /******************** VERSION Tablette VERICALE - FIN ********************/ 
 
 /******************** VERSION DESKTOP / Tablette horizontale - DEBUT ********************/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 769px) {
     body{
         max-width:1400px;
     }
