@@ -133,7 +133,7 @@ h1{
     flex-direction: row;
     height:100%;
     overflow: hidden;
-    margin-right: -4.4rem;
+    margin: 0 -25% 0 0;
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -272,6 +272,7 @@ button:hover{
 
     .carré i{
         width: 7rem;
+        font-size: 45px;
     }
 
 
@@ -296,7 +297,7 @@ button:hover{
     }
 
     .prix-menu{
-        width:29%;
+        margin-right: -28%;
     }
 
 }
@@ -306,6 +307,12 @@ button:hover{
 @media screen and (min-width: 769px) {
     body{
         max-width:1400px;
+    }
+
+    .section1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 
     .titre-menu{
@@ -322,7 +329,7 @@ button:hover{
     }
 
     .carte-menu h2{
-        font-size: 21px
+        font-size: 18px
     }
 
     .carte-menu p{
@@ -339,32 +346,49 @@ button:hover{
         width: 100%;
    }
 
-    .titre{
-        width: 30px;
+   .titre{
+        border-color: transparent;   
+    }
+    .titre p{
         background-color: #F2F2F2;
+        border: none;
+        height: 50px;
+        padding-left: 38px;
+        
     }
 
     .carte-menu{
-        width: 26%;
+        width: 95%;
         height: 100px;
-        padding-top: 15px;
     }
 
     .categorie-menu{
         width: 100%;
-        flex-direction: row;
+        flex-direction: column;
         display: flex;
         justify-content: space-around;
-        height: 120px;
         flex-wrap: wrap;
         margin-top: 20px;
         margin-bottom: 30px;
+        background: transparent;
+        height: 500px;
+    }
+
+    .section2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .desserts{
+        width: 47%;
     }
 
     .variante-menu{
         height: 270px;
-
     }
+
     footer ul{
         flex-direction: row;
         display: flex;
@@ -373,9 +397,12 @@ button:hover{
     }
 
     button{
-        font-size: 35px;
-        width: 40%;
+        font-size: 30px;
         height: 100px;
+        width: 100%;
+        margin-left: 190px;
+        margin-top: 170px;
     }
+
 }
 /******************** VERSION DESKTOP / Tablette horizontale - FIN ********************/   
