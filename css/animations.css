@@ -53,7 +53,6 @@
 
 
 /** Coeur - Début **/
-
 .coeur1{
   color: transparent;
   background-image: linear-gradient(#FF79DA, #9356DC);
@@ -61,7 +60,7 @@
   -webkit-background-clip: text;
   opacity: 0;
   transition-duration: 0.5s;
-  scale: 1;
+  scale: 0.5;
 }
 
 .coeur1:hover{
@@ -69,19 +68,17 @@
   scale: 1.05;
   transition-duration: 0.5s;
 }
-
 /** Coeur - Fin **/
 
 
 /** Apparitions vignettes - Debut **/
-
 .carte-menu{
   animation: apparition;
   animation-delay: 3s;
 }
 
 .delay1{
-  animation-duration: 0.7s;
+  animation-duration: 1s;
 }
 
 .delay2{
@@ -107,6 +104,3 @@ animation-duration: 4s;
 }
 }
 /** Apparitions vignettes - Fin **/
-
-/** Check - Debut **/
-/** Check - Fin **/
