@@ -1,5 +1,5 @@
 /******************** VERSION MOBILE - DEBUT ********************/ 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 300px) {
     
     body{
         margin: auto;
@@ -84,11 +84,15 @@ h1{
 .titre-menu i{
     font-size: 30px;
 }
+.carré{
+    overflow: hidden;
+    background-color: #99E2DE;
 
+}
 .carré i{
     height: 100%;
-    width: 4rem;
-    min-width: 4rem;
+    width: 5rem;
+    min-width: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,6 +100,14 @@ h1{
     font-size: 25px;
     color: white;
     border-radius: 0px 10px 10px 0;
+    transition-duration: 0.8s;
+    transition-delay: 3s;
+}
+
+.carré i:hover{
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
+    transition-delay: 0s;
 }
 
 
@@ -158,6 +170,7 @@ h1{
     font-weight: bold;
     width: 50%;
     padding: 0 10px 0 0px;
+    background-color: white;
 }
 
 .categorie-menu{
@@ -347,6 +360,7 @@ button:hover{
    .titre{
         border-color: transparent;   
     }
+    
     .titre p{
         background-color: #F2F2F2;
         border: none;
