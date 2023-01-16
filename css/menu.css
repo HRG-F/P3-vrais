@@ -184,7 +184,7 @@ h1{
 }
 
 .variante-menu{
-    height: 350px;
+    height: 390px;
 }
 
 button{
@@ -314,6 +314,11 @@ button:hover{
     .prix-menu{
         margin-right: -29.5%;
     }
+
+    .variante-menu{
+        height: 537px;
+    }
+    
 
 }
 /******************** VERSION Tablette VERICALE - FIN ********************/ 
