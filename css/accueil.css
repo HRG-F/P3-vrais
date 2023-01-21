@@ -1,5 +1,5 @@
 /******************** VERSION MOBILE - DEBUT ********************/ 
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 320px) {
 
 body{
     margin: auto;
@@ -104,7 +104,8 @@ button:hover{
     border-radius: 20px;
     cursor: pointer;
 }
- .fonctionnement-trois-cartes :hover{
+
+.fonctionnement-trois-cartes :hover{
     background-color: #dddada;
  }
 
@@ -156,23 +157,33 @@ main h2{
     margin: auto;
     box-shadow: 0px 6px 13px -10px #000000;
     justify-content: space-around;
+
 }
+
+.nouveau{
+    position: absolute;
+    top: 1000px;
+    right: 10%;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    background-color: #99e2d0;
+    color: #008766;
+    width: 90px;
+}
+
+.nouveau2{
+    top: 1325px;
+}
+
+
 
 .restaurants img{
     width: 100%;
     height: 200px;
     border-radius: 20px 20px 0 0;
-}
-
-
-
-@media screen and (min-width: 517px) and (max-width: 768px) {
-    .nouveau{
-        top: 980px;
-    }
-    .nouveau2{
-        top: 1290px;
-    }
 }
 
 
@@ -193,13 +204,6 @@ main h2{
     grid-row: 1;
     font-size: 17px;
     align-items: center;
-}
-
-.coeur1 , .coeur{
-    grid-column: 2;
-    grid-row: 1;
-    font-size: 30px;
-    cursor: pointer;
 }
 
 .restaurants-carte-partie-basse-gauche p{
@@ -303,6 +307,15 @@ a{
         height: 100px;
     }
 
+    .nouveau{
+        top: 1430px;
+        width: 120px;
+    }
+    
+    .nouveau2{
+        top: 2125px;
+    } 
+
     .fonctionnement-carte p, i{
         font-size: 25px;
     }
@@ -326,7 +339,7 @@ a{
 /******************** VERSION Tablette VERICALE - FIN ********************/   
 
 /******************** VERSION DESKTOP / Tablette horizontale - DEBUT ********************/
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1024px){
 body{
     max-width: 1400px;
     margin: auto;
@@ -337,19 +350,35 @@ main{
 }
 
 header{
-    height:400px;
+    height:460px;
 }
+
+.phrases-header h1 p{
+    font-size: 25px;
+}
+
 .restaurants{
     flex-wrap: wrap;
     height: 1000px;
     background-color: white;
+    max-width: 1345px;
 }
+
 .restaurants-carte{
     width: 35%;
 }
 
+.nouveau{
+    top: 920px;
+    left: 320px;
+}
+
+.nouveau2{
+    top: 1420px;
+}
+
 header button{
-width:430px;
+    width:390px;
 }
 
 header button{
@@ -362,7 +391,7 @@ header button{
 }
 .fonctionnement{
     height: 20px;
-    width: 100%;
+    width: 95%;
     padding: 30px 2% 90px 2%;
 }
 
