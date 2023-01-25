@@ -67,12 +67,10 @@
   -webkit-background-clip: text;
   opacity: 0;
   transition-duration: 0.5s;
-  scale: 0.5;
 }
 
 .coeur1:hover{
   opacity: 1;
-  scale: 1.05;
   transition-duration: 0.5s;
 }
 /** Coeur - Fin **/
@@ -105,7 +103,7 @@ animation-duration: 4s;
 @keyframes apparition{
   0%{
     transform: translateY(50%);
-    opacity:-1;
+    opacity:-0.9;
   }
 100%{
   transform: translateY(0);

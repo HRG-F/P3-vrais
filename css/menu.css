@@ -40,7 +40,6 @@ h1{
 .logo i{
     font-size: 30px;
     grid-column: 1;
-    transform: hover 0.2s;
 }
 
 .logo img{
