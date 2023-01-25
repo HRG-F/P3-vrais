@@ -160,10 +160,14 @@ main h2{
 
 }
 
+.restaurants-carte-partie-haute{
+    position: relative;
+}
+
 .nouveau{
     position: absolute;
-    top: 1000px;
-    right: 10%;
+    top: 10px;
+    right: 30px;
     border-radius: 5px;
     align-items: center;
     display: flex;
@@ -174,9 +178,7 @@ main h2{
     width: 90px;
 }
 
-.nouveau2{
-    top: 1325px;
-}
+
 
 
 
@@ -307,15 +309,6 @@ a{
         height: 100px;
     }
 
-    .nouveau{
-        top: 1430px;
-        width: 120px;
-    }
-    
-    .nouveau2{
-        top: 2125px;
-    } 
-
     .fonctionnement-carte p, i{
         font-size: 25px;
     }
@@ -366,15 +359,6 @@ header{
 
 .restaurants-carte{
     width: 35%;
-}
-
-.nouveau{
-    top: 920px;
-    left: 320px;
-}
-
-.nouveau2{
-    top: 1420px;
 }
 
 header button{
